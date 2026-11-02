@@ -1,4 +1,4 @@
-# Trabajo Práctico 2 - Stack Frame
+# Trabajo Práctico 2: Stack Frame
 
 ## Descripción
 Proyecto de integración entre C y Assembler (x86_64, sintaxis AT&T) aplicando la convención de llamadas System V AMD64 ABI. El sistema se conecta a la API REST del Banco Mundial mediante `libcurl` para extraer el Índice GINI de Argentina y delega el procesamiento matemático y manejo de memoria a una subrutina de bajo nivel.
