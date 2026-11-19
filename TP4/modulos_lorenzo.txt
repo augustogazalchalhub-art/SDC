@@ -1,0 +1,14 @@
+Module                  Size  Used by
+intel_rapl_msr         16384  0
+intel_rapl_common      40960  1 intel_rapl_msr
+kvm_intel             368640  0
+kvm                  1003520  1 kvm_intel
+irqbypass              16384  1 kvm
+sch_fq_codel           16384  1
+autofs4                45056  0
+br_netfilter           28672  0
+bridge                286720  1 br_netfilter
+stp                    12288  1 bridge
+llc                    12288  2 bridge,stp
+ip_tables              28672  0
+tun                    53248  0
