@@ -271,7 +271,7 @@ sudo checkinstall --pkgname=tp4-programas --pkgversion=1.0 --default
 
 | Empaquetado combinado (`tp4-programas`) | Verificación y ejecución de `stack_frame` |
 | :---: | :---: |
-| ![Creación paquete tp4-programas](Capturas/17_checkinstall_tp4_programas_creacion.png) | ![Prueba stack_frame instalado](Capturas/18_checkinstall_tp4_programas_prueba_stack_frame.png) |
+| ![Creación paquete tp4-programas](Capturas/17_checkinstall_tp4_programas_creacion.png) | ![Prueba stack_frame instalado](Capturas/18_checkinstall_tp4_programas_prueba_stack.png) |
 
 #### Instalación en una segunda máquina
 El archivo [`Checkinstall/tp4-programas_1.0-1_amd64.deb`](Checkinstall/tp4-programas_1.0-1_amd64.deb) se compartió para instalarlo en el equipo de Lorenzo mediante:
