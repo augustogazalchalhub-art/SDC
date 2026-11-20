@@ -1,0 +1,67 @@
+--- /tmp/augusto.txt	2026-11-20 12:20:58.579263913 -0300
++++ /tmp/lorenzo.txt	2026-11-20 12:20:58.587263488 -0300
+@@ -1,55 +1,13 @@
+-ac97_bus
+-aesni_intel
+-af_alg
+-ahci
+-algif_hash
+ autofs4
+-binfmt_misc
+-cpuid
+-dmi_sysfs
+-drm_ttm_helper
+-e1000
+-efi_pstore
+-ghash_clmulni_intel
+-hid
+-hid_generic
+-i2c_piix4
+-i2c_smbus
+-input_leds
++bridge
++br_netfilter
+ intel_rapl_common
+ intel_rapl_msr
+-isofs
+-joydev
+-libahci
+-lp
+-mac_hid
+-mimodulo
+-msr
+-parport
+-pata_acpi
+-ppdev
+-psmouse
+-qrtr
++ip_tables
++irqbypass
++kvm
++kvm_intel
++llc
+ sch_fq_codel
+-serio_raw
+-snd
+-snd_ac97_codec
+-snd_hrtimer
+-snd_intel8x0
+-snd_pcm
+-snd_rawmidi
+-snd_seq
+-snd_seq_device
+-snd_seq_dummy
+-snd_seq_midi
+-snd_seq_midi_event
+-snd_timer
+-soundcore
+-ttm
+-usbhid
+-vboxguest
+-vga16fb
+-vgastate
+-video
+-vmwgfx
+-wmi
++stp
++tun
