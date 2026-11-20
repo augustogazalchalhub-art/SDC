@@ -1,0 +1,12 @@
+*.img
+*.dtb
+TP4/raspberry/linux/
+TP4/kenel-modules/
+*.cmd
+.*.cmd
+*.o
+.*.o
+*.mod
+*.mod.c
+Module.symvers
+modules.order

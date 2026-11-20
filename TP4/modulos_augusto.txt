@@ -1,0 +1,56 @@
+Module                  Size  Used by
+mimodulo               12288  0
+algif_hash             20480  0
+af_alg                 32768  1 algif_hash
+cpuid                  12288  0
+isofs                  61440  1
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+qrtr                   53248  2
+intel_rapl_msr         20480  0
+intel_rapl_common      57344  1 intel_rapl_msr
+binfmt_misc            24576  1
+snd_intel8x0           57344  1
+snd_ac97_codec        200704  1 snd_intel8x0
+ac97_bus               12288  1 snd_ac97_codec
+snd_pcm               212992  2 snd_intel8x0,snd_ac97_codec
+snd_seq_midi           24576  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            57344  1 snd_seq_midi
+snd_seq               126976  9 snd_seq_midi,snd_seq_midi_event,snd_seq_dummy
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+vga16fb                36864  0
+vgastate               20480  1 vga16fb
+vmwgfx                479232  43
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+i2c_piix4              36864  0
+snd                   147456  11 snd_seq,snd_seq_device,snd_intel8x0,snd_timer,snd_ac97_codec,snd_pcm,snd_rawmidi
+e1000                 188416  0
+i2c_smbus              20480  1 i2c_piix4
+drm_ttm_helper         20480  2 vmwgfx
+soundcore              16384  1 snd
+ttm                   139264  2 vmwgfx,drm_ttm_helper
+joydev                 32768  0
+input_leds             12288  0
+mac_hid                12288  0
+sch_fq_codel           28672  2
+efi_pstore             12288  0
+video                  77824  0
+ahci                   57344  1
+ghash_clmulni_intel    12288  0
+wmi                    36864  1 video
+psmouse               225280  0
+libahci                57344  1 ahci
+vboxguest             528384  4
+serio_raw              20480  0
+pata_acpi              12288  0
+hid_generic            12288  0
+usbhid                 86016  0
+hid                   286720  2 usbhid,hid_generic
+ppdev                  24576  0
+lp                     32768  0
+parport                81920  2 lp,ppdev
+msr                    12288  0
+dmi_sysfs              28672  0
+autofs4                61440  2
+aesni_intel            98304  0
